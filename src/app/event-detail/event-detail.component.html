@@ -1,0 +1,10 @@
+<div class="event" *ngIf="event">
+  <h2>{{event.title}} Details</h2>
+  <div><span>ID: </span>{{event.id}}</div>
+  <div><span>Title: </span>{{event.title}}</div>
+  <div><span>Type: </span>{{event.flag}}</div>
+  <div><span>Summary: </span>{{event.summary}}</div>
+  <div><span>Presenter: </span>{{event.presenter}}</div>
+  <div><span>Room: </span>{{event.room}}</div>
+  <button (click)="goBack()">Go Back</button>
+</div>

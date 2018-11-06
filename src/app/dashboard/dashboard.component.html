@@ -1,0 +1,6 @@
+<a *ngFor="let event of events" class="col-1-8"
+    routerLink="/detail/{{event.id}}">
+  <div class="module hero">
+    <h4>{{event.title}}</h4>
+  </div>
+</a>
