@@ -38,9 +38,9 @@ h4 {
   text-align: center;
   color: #eee;
   max-height: 220px;
-  width: 15em;
+  width: 90%;
+  border-radius: 10px;
   background-color: #607d8b;
-  border-radius: 50%;
 }
 
 .module:hover {
